@@ -24,7 +24,8 @@ CORS(
     supports_credentials=True,
     origins=[
         "http://localhost:5173",          
-        "https://dishdash-7lzx.onrender.com"  
+        "https://dishdash-7lzx.onrender.com" ,
+        "https://dishdash-3ofz.onrender.com"
     ],
     allow_headers=["Content-Type", "Authorization"],
     methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
@@ -152,4 +153,4 @@ api.add_resource(Login, '/login')
 api.add_resource(Logout, '/logout')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5002,debug=True)
