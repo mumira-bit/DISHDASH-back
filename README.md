@@ -1,6 +1,6 @@
  DishDash Backend
 
-This is the **backend Flask API** for DishDash, deployed on [Render](https://dishdash-7lzx.onrender.com).  
+This is the **backend Flask API** for DishDash, deployed on https://dishdash-7lzx.onrender.com
 
 It serves endpoints for authentication, recipes, and reviews.
 
